@@ -37,6 +37,18 @@
 
     <!-- Optional: Google Fonts (e.g., monospace for footer) -->
     <!-- <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400&display=swap" rel="stylesheet" /> -->
+
+    <!-- N8N Chatbot -->
+    <link href="https://cdn.jsdelivr.net/npm/@n8n/chat/dist/style.css" rel="stylesheet" />
+    <script type="module">
+        import { createChat } from 'https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js';
+
+        createChat({
+            webhookUrl: 'https://danielaakerman.app.n8n.cloud/webhook/6f3e2129-8207-4420-8916-13e839f9283b/chat'
+        });
+    </script>
+    <!-- End N8N Chatbot -->
+
 </head>
 
 
